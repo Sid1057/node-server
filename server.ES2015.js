@@ -1,8 +1,6 @@
 let http = require('http');
 let fs = require('fs');     
 
-
-
 let router = (url) => {
   switch (url) {
     case "/":
